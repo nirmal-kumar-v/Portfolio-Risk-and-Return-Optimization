@@ -1,503 +1,368 @@
-# ╔══════════════════════════════════════════════════════════════╗
+<div align="center">
 
-# O P T I V E S T
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=34&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=800&lines=OPTIVEST;Risk+%26+Return+Intelligence;Mathematical+Portfolio+Optimization;Built+to+Understand+Risk." alt="OptiVest" />
 
-# ╚══════════════════════════════════════════════════════════════╝
+<br>
 
-### Portfolio Risk & Return Optimization Platform
+### **PORTFOLIO RISK & RETURN INTELLIGENCE**
 
-<p align="center">
-  <strong>Mathematical intelligence for smarter portfolio construction.</strong>
-</p>
+<br>
 
-<p align="center">
-  <a href="https://optivest-psi.vercel.app/">
-    <img src="https://img.shields.io/badge/Live_Demo-OptiVest-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <img src="https://img.shields.io/badge/🏆_1st_Prize-CoE_Hackathon-FFD700?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
+<a href="https://optivest-psi.vercel.app/">
+<img src="https://img.shields.io/badge/%E2%86%92%20EXPLORE%20OPTIVEST-111111?style=for-the-badge&labelColor=111111&color=7C3AED" />
+</a>
 
-<p align="center">
-  <a href="#-overview">Overview</a> •
-  <a href="#-the-problem">Problem</a> •
-  <a href="#-the-solution">Solution</a> •
-  <a href="#-features">Features</a> •
-  <a href="#-architecture">Architecture</a> •
-  <a href="#-getting-started">Getting Started</a> •
-  <a href="#-team">Team</a>
-</p>
+<br><br>
+
+<img src="https://img.shields.io/badge/%F0%9F%A5%87%201ST%20PRIZE-CENTRE%20OF%20EXCELLENCE%20HACKATHON-111111?style=for-the-badge&labelColor=111111&color=F5B942" />
+
+</div>
+
+<br>
 
 ---
 
-## 🌐 Live Application
+<div align="center">
 
-### [Launch OptiVest →](https://optivest-psi.vercel.app/)
+## **OPTIMIZE THE PORTFOLIO.**
 
-> Explore the deployed application and interact with the portfolio optimization engine.
+## **UNDERSTAND THE RISK.**
 
----
+<br>
 
-# 🏆 1st Prize — Centre of Excellence Hackathon
+**OptiVest** is a full-stack quantitative portfolio intelligence platform that transforms historical market data into mathematically optimized portfolio allocations using **Modern Portfolio Theory**.
 
-**OptiVest** was developed as a collaborative hackathon project and secured the **1st Prize** at the **Centre of Excellence (CoE) Hackathon conducted by Kongu Engineering College**.
+<br>
 
-The project was developed by a four-member team with **equal contribution from every member** across ideation, system architecture, frontend engineering, backend engineering, mathematical optimization, testing, documentation, and presentation.
+`10,000+ SIMULATED PORTFOLIOS`    `EFFICIENT FRONTIER`    `MAX SHARPE`    `MIN VOLATILITY`
 
----
+</div>
 
-# ✦ Overview
-
-**OptiVest** is a full-stack portfolio optimization platform designed to answer a fundamental investment question:
-
-> **How should capital be distributed across a set of assets to balance risk and return?**
-
-Instead of evaluating stocks individually, OptiVest looks at the **portfolio as a mathematical system**.
-
-The platform uses **Modern Portfolio Theory (MPT)**, statistical analysis, Monte Carlo simulation, covariance modeling, and constrained numerical optimization to explore thousands of possible portfolios.
-
-It then identifies mathematically significant portfolio configurations such as:
-
-* **Maximum Sharpe Ratio Portfolio**
-* **Minimum Volatility Portfolio**
-* **Efficient Frontier**
-* **Risk-oriented portfolio allocations**
+<br>
 
 ---
 
-# 🎯 The Problem
+## ✦ The Idea
 
-Selecting investments based only on individual stock performance can overlook one of the most important aspects of investing:
+Most portfolio decisions start with a simple question:
 
-### **How assets behave together.**
+> **“Which stock should I buy?”**
 
-Two stocks can individually have attractive historical returns while producing a highly volatile portfolio when combined.
+OptiVest approaches the problem differently.
 
-A portfolio therefore needs to be evaluated across multiple dimensions:
+It asks:
+
+> **“How should multiple assets work together inside a portfolio?”**
+
+Instead of looking at assets independently, OptiVest analyzes **return, volatility, covariance and portfolio-level risk** to explore thousands of possible allocations.
+
+The result is an interactive risk-return intelligence layer built around **Modern Portfolio Theory**.
+
+---
+
+<div align="center">
+
+### `MARKET DATA`
+
+↓
+
+### `STATISTICAL MODEL`
+
+↓
+
+### `10,000 PORTFOLIOS`
+
+↓
+
+### `EFFICIENT FRONTIER`
+
+↓
+
+### `OPTIMIZATION`
+
+↓
+
+### `PORTFOLIO ALLOCATION`
+
+</div>
+
+---
+
+# ◈ Inside OptiVest
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 01 — Portfolio Optimization
+
+Mean-variance optimization evaluates possible asset allocations based on their expected return and risk.
+
+</td>
+
+<td width="50%" valign="top">
+
+### 02 — Monte Carlo Engine
+
+**10,000 simulated portfolios** create a large risk-return landscape from which efficient portfolios can be identified.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 03 — Efficient Frontier
+
+The system visualizes the relationship between portfolio risk and expected return to identify efficient allocations.
+
+</td>
+
+<td width="50%" valign="top">
+
+### 04 — Maximum Sharpe
+
+`scipy.optimize` searches for the allocation that maximizes the modeled Sharpe ratio.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 05 — Minimum Volatility
+
+The optimization engine searches for the portfolio allocation with the lowest modeled volatility.
+
+</td>
+
+<td width="50%" valign="top">
+
+### 06 — Risk Intelligence
+
+Risk preferences are mapped to portfolio allocations to make the mathematical analysis easier to interpret.
+
+</td>
+</tr>
+</table>
+
+---
+
+# ◉ The Engine
+
+<div align="center">
 
 ```text
-                    ┌──────────────────┐
-                    │ Expected Return  │
-                    └────────┬─────────┘
-                             │
-                             ▼
-┌──────────────┐      ┌──────────────┐      ┌──────────────┐
-│ Asset Risk   │ ───► │  Portfolio   │ ◄─── │ Correlation  │
-└──────────────┘      │    Risk      │      └──────────────┘
-                      └──────┬───────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │ Asset Allocation │
-                    └──────────────────┘
+                     HISTORICAL PRICES
+                            │
+                            ▼
+                     DAILY RETURNS
+                            │
+                            ▼
+                    ANNUALIZED RETURNS
+                            │
+                            ▼
+                    COVARIANCE MATRIX
+                            │
+                            ▼
+              ┌──────────────────────────┐
+              │     MONTE CARLO ENGINE   │
+              │                          │
+              │    10,000 PORTFOLIOS     │
+              └────────────┬─────────────┘
+                           │
+                           ▼
+                    RISK / RETURN CLOUD
+                           │
+                           ▼
+                   EFFICIENT FRONTIER
+                           │
+                ┌──────────┴──────────┐
+                ▼                     ▼
+          MAXIMUM SHARPE        MINIMUM VOLATILITY
+                │                     │
+                └──────────┬──────────┘
+                           ▼
+                    RISK PREFERENCE
+                           │
+                           ▼
+                   FINAL ALLOCATION
 ```
 
-Manually exploring thousands of possible allocations is inefficient.
-
-**OptiVest automates this exploration.**
+</div>
 
 ---
 
-# 💡 The Solution
+# ◌ The Mathematics
 
-OptiVest converts historical market data into a quantitative portfolio analysis pipeline.
+OptiVest is powered by **Modern Portfolio Theory**.
 
-```text
-┌─────────────────────────────────────────────────────────┐
-│                    USER INPUT                           │
-│                                                         │
-│              Selected Stocks / Assets                  │
-└────────────────────────┬────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│                  MARKET DATA                            │
-│                                                         │
-│              Historical Price Series                    │
-└────────────────────────┬────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│                STATISTICAL ENGINE                       │
-│                                                         │
-│       Returns • Volatility • Covariance Matrix         │
-└────────────────────────┬────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│             MONTE CARLO SIMULATION                      │
-│                                                         │
-│              10,000 Portfolio Samples                   │
-└────────────────────────┬────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────┐
-│                EFFICIENT FRONTIER                       │
-│                                                         │
-│          Risk ↔ Return Portfolio Landscape             │
-└────────────────────────┬────────────────────────────────┘
-                         │
-              ┌──────────┴──────────┐
-              ▼                     ▼
-      Maximum Sharpe         Minimum Volatility
-              │                     │
-              └──────────┬──────────┘
-                         ▼
-                Risk Preference
-                         │
-                         ▼
-                Portfolio Allocation
-```
+For a portfolio with asset weights:
 
----
-
-# 🚀 Features
-
-## 01 — Portfolio Optimization
-
-OptiVest uses **Modern Portfolio Theory** to analyze the relationship between expected return and portfolio risk.
-
-The engine calculates:
-
-* Expected return
-* Portfolio volatility
-* Sharpe ratio
-* Asset weights
-* Covariance
-* Portfolio-level risk
-
----
-
-## 02 — 10,000 Portfolio Simulations
-
-Rather than evaluating only a few manually selected allocations, OptiVest explores **10,000 simulated portfolios**.
-
-Each portfolio receives:
-
-```text
-┌─────────────────────────────┐
-│ Expected Return             │
-│ Volatility                  │
-│ Sharpe Ratio                │
-│ Asset Allocation            │
-└─────────────────────────────┘
-```
-
-These portfolios create the visual landscape from which the efficient frontier can be analyzed.
-
----
-
-## 03 — Efficient Frontier
-
-The efficient frontier represents portfolios that provide the best available expected return for a given level of modeled risk.
-
-Conceptually:
-
-```text
-Expected
-Return
-  ▲
-  │
-  │                         ●
-  │                    ● ●
-  │                 ●
-  │              ●
-  │           ●
-  │        ●
-  │     ●
-  │  ●
-  └──────────────────────────────────► Risk
-```
-
-This gives users a portfolio-level view rather than evaluating assets in isolation.
-
----
-
-## 04 — Maximum Sharpe Ratio
-
-OptiVest uses constrained numerical optimization to find the portfolio with the highest modeled Sharpe ratio.
-
-```text
-                    MAX SHARPE
-                        ●
-                       / \
-                      /   \
-                     /     \
-                    /       \
-──────────────────────────────────
-```
-
-The optimization engine uses:
-
-```python
-scipy.optimize.minimize()
-```
-
-with the **SLSQP** algorithm.
-
----
-
-## 05 — Minimum Volatility
-
-The optimization engine also searches for the allocation that minimizes portfolio volatility.
-
-```text
-                    Efficient Frontier
-                         ●
-                      ●
-                   ●
-                ●
-             ●
-          ●
-       ●
-    ●
-   │
-   │ Minimum Volatility
-   ●
-──────────────────────────────────► Risk
-```
-
-This provides a second mathematically optimized reference portfolio.
-
----
-
-## 06 — Risk-Based Portfolio Selection
-
-OptiVest allows the optimization results to be interpreted through different risk preferences.
-
-```text
-LOW RISK
-   │
-   │    Capital preservation / lower modeled volatility
-   ▼
-MEDIUM RISK
-   │
-   │    Balanced risk-return profile
-   ▼
-HIGH RISK
-   │
-   │    Greater modeled return / volatility exposure
-   ▼
-```
-
-The platform maps the selected risk preference to an appropriate point in the modeled portfolio space.
-
----
-
-## 07 — Interactive Visualization
-
-The frontend turns the mathematical results into an interactive dashboard.
-
-Visual analytics include:
-
-* Efficient frontier
-* Risk-return distribution
-* Portfolio allocation
-* Asset weights
-* Return metrics
-* Volatility metrics
-* Sharpe ratio
-* Optimization results
-
----
-
-## 08 — Automated PDF Reports
-
-Portfolio analysis can be exported as a PDF report.
-
-This allows the generated analysis to be:
-
-* Saved
-* Shared
-* Presented
-* Archived
-
-without manually reproducing the results.
-
----
-
-# 🧠 Mathematical Engine
-
-OptiVest is built around **Modern Portfolio Theory**.
-
-For portfolio weights:
-
-```text
-w₁, w₂, ..., wₙ
-```
+$$
+w_1,w_2,\ldots,w_n
+$$
 
 the expected portfolio return is:
 
-```text
-E(Rₚ) = Σ wᵢE(Rᵢ)
-```
+$$
+E(R_p)=\sum_i w_iE(R_i)
+$$
 
 Portfolio variance:
 
-```text
-σₚ² = wᵀΣw
-```
-
-where:
-
-```text
-w = portfolio weight vector
-
-Σ = covariance matrix
-```
+$$
+\sigma_p^2=w^T\Sigma w
+$$
 
 Portfolio volatility:
 
-```text
-σₚ = √(wᵀΣw)
-```
+$$
+\sigma_p=\sqrt{w^T\Sigma w}
+$$
 
-Sharpe ratio:
+And the Sharpe Ratio:
 
-```text
-Sharpe Ratio = (Rₚ − Rf) / σₚ
-```
+$$
+S=\frac{R_p-R_f}{\sigma_p}
+$$
 
-The optimization engine searches for portfolio weights subject to the defined constraints.
-
----
-
-# 🔬 Optimization Pipeline
-
-```text
-                  Historical Prices
-                         │
-                         ▼
-                  Daily Returns
-                         │
-                         ▼
-                 Annualized Returns
-                         │
-                         ▼
-                Covariance Matrix
-                         │
-                         ▼
-             ┌───────────────────────┐
-             │ Monte Carlo Engine    │
-             │                       │
-             │ 10,000 Portfolios     │
-             └───────────┬───────────┘
-                         │
-                         ▼
-                  Risk / Return Cloud
-                         │
-                         ▼
-                 Efficient Frontier
-                         │
-              ┌──────────┴──────────┐
-              │                     │
-              ▼                     ▼
-        Max Sharpe             Min Volatility
-              │                     │
-              └──────────┬──────────┘
-                         ▼
-                 Risk Preference
-                         │
-                         ▼
-                 Final Allocation
-```
+The optimization engine uses these relationships to search the portfolio space for mathematically significant allocations.
 
 ---
 
-# 🏗 System Architecture
+# ⟡ From Data to Decision
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=1800&pause=500&color=7C3AED&center=true&vCenter=true&width=700&lines=FETCH+DATA;CALCULATE+RETURNS;BUILD+COVARIANCE+MATRIX;SIMULATE+10%2C000+PORTFOLIOS;BUILD+EFFICIENT+FRONTIER;OPTIMIZE;GENERATE+ALLOCATION" alt="Pipeline" />
+
+</div>
+
+---
+
+# ◇ Product Experience
+
+<div align="center">
+
+### **A quantitative engine behind a clean financial interface.**
+
+<br>
+
+<!-- Add your real screenshots here -->
+
+<img src="docs/dashboard.png" width="92%" alt="OptiVest Dashboard"/>
+
+<br><br>
+
+<table>
+<tr>
+<td width="50%">
+
+<img src="docs/optimization.png" width="100%" alt="Portfolio Optimization"/>
+
+</td>
+<td width="50%">
+
+<img src="docs/allocation.png" width="100%" alt="Portfolio Allocation"/>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+# ⌁ Architecture
+
+<div align="center">
 
 ```text
-                         OPTIVEST
-                            │
-            ┌───────────────┴────────────────┐
-            │                                │
-            ▼                                ▼
-     ┌──────────────┐                 ┌──────────────┐
-     │   FRONTEND   │                 │   BACKEND    │
-     │              │                 │              │
-     │ React 19     │ ◄──── REST ───► │ FastAPI      │
-     │ Vite         │                 │ Python       │
-     │ Tailwind     │                 │              │
-     │ Recharts     │                 │ MPT Engine   │
-     └──────────────┘                 └──────┬───────┘
-                                             │
-                           ┌─────────────────┼─────────────────┐
-                           │                 │                 │
-                           ▼                 ▼                 ▼
-                     Yahoo Finance      NumPy/Pandas       SciPy
-                       yfinance          Data Engine     Optimizer
+                         ┌─────────────────────┐
+                         │      OPTIVEST       │
+                         │      FRONTEND       │
+                         │                     │
+                         │ React 19            │
+                         │ Vite                │
+                         │ Tailwind CSS         │
+                         │ Recharts             │
+                         └──────────┬──────────┘
+                                    │
+                               REST API
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │       FASTAPI       │
+                         │       BACKEND       │
+                         │                     │
+                         │ Market Data         │
+                         │ MPT Engine          │
+                         │ Optimization        │
+                         │ PDF Generation      │
+                         └──────────┬──────────┘
+                                    │
+                 ┌──────────────────┼──────────────────┐
+                 ▼                  ▼                  ▼
+           Yahoo Finance         NumPy              SciPy
+             yfinance            Pandas           Optimizer
+                 │
+                 ▼
+          Historical Prices
+```
+
+</div>
+
+---
+
+# ⌂ Technology
+
+<div align="center">
+
+### FRONTEND
+
+`React 19` · `Vite` · `Tailwind CSS` · `Recharts` · `Axios` · `Framer Motion` · `Lucide`
+
+### BACKEND
+
+`FastAPI` · `Python` · `Pandas` · `NumPy` · `SciPy` · `Scikit-learn` · `yfinance`
+
+### OPTIMIZATION
+
+`Modern Portfolio Theory` · `Mean-Variance Optimization` · `Monte Carlo Simulation` · `SLSQP`
+
+</div>
+
+---
+
+# ◇ Data Resilience
+
+External market-data APIs can fail.
+
+OptiVest was designed so that the **demo does not collapse when market data becomes temporarily unavailable**.
+
+```text
+                    MARKET DATA REQUEST
                            │
                            ▼
-                    Historical Prices
+                     YAHOO FINANCE
+                           │
+                  ┌────────┴────────┐
+                  │                 │
+               SUCCESS            FAILURE
+                  │                 │
+                  ▼                 ▼
+             LIVE DATA        SYNTHETIC DATA
+                  │                 │
+                  └────────┬────────┘
+                           ▼
+                    MPT ENGINE
+                           │
+                           ▼
+                       OPTIVEST
 ```
 
----
-
-# 🧩 Technology Stack
-
-## Frontend
-
-| Technology          | Role                          |
-| ------------------- | ----------------------------- |
-| **React 19**        | Application UI                |
-| **Vite**            | Development and build tooling |
-| **Tailwind CSS**    | UI styling                    |
-| **React Router**    | Application routing           |
-| **Axios**           | API communication             |
-| **Recharts**        | Data visualization            |
-| **Framer Motion**   | Interface animation           |
-| **Lucide Icons**    | UI iconography                |
-| **React Hook Form** | Form management               |
-
-## Backend
-
-| Technology       | Role                   |
-| ---------------- | ---------------------- |
-| **FastAPI**      | REST API               |
-| **Python**       | Core backend           |
-| **yfinance**     | Market data            |
-| **Pandas**       | Data manipulation      |
-| **NumPy**        | Numerical computation  |
-| **SciPy**        | Portfolio optimization |
-| **Scikit-learn** | Statistical utilities  |
-| **Uvicorn**      | ASGI server            |
-| **ReportLab**    | PDF generation         |
-
----
-
-# 🛡 Data Reliability & Demo Resilience
-
-A major design consideration was the reliability of external market-data APIs.
-
-A hackathon demonstration should not become unusable simply because an external service is temporarily unavailable.
-
-OptiVest therefore implements a fallback data layer.
-
-```text
-                 Request Market Data
-                         │
-                         ▼
-                    yfinance
-                         │
-                ┌────────┴────────┐
-                │                 │
-             SUCCESS            FAILURE
-                │                 │
-                ▼                 ▼
-          Live Market       Seeded Synthetic
-             Data                Data
-                │                 │
-                └────────┬────────┘
-                         ▼
-                  Optimization
-                         │
-                         ▼
-                    Dashboard
-```
-
-When synthetic data is used, the backend explicitly returns:
+When fallback data is active, the backend exposes:
 
 ```json
 {
@@ -505,375 +370,138 @@ When synthetic data is used, the backend explicitly returns:
 }
 ```
 
-The frontend surfaces this state to the user.
-
-This prevents simulated market data from silently appearing to be live market data.
+The interface surfaces that state instead of silently presenting simulated data as live market information.
 
 ---
 
-# 📂 Project Structure
+# ◇ Live
 
-```text
-optivest/
-│
-├── backend/
-│   │
-│   ├── main.py
-│   ├── requirements.txt
-│   ├── ...
-│   │
-│   └── Portfolio Optimization Engine
-│
-├── frontend/
-│   │
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   ├── vite.config.js
-│   └── ...
-│
-├── .gitignore
-└── README.md
-```
-
----
-
-# 🔌 API
-
-| Method | Endpoint      | Description                |
-| ------ | ------------- | -------------------------- |
-| `GET`  | `/`           | Backend health check       |
-| `GET`  | `/stocks`     | Retrieve available stocks  |
-| `POST` | `/optimize`   | Run portfolio optimization |
-| `POST` | `/report/pdf` | Generate PDF analysis      |
-
-FastAPI automatically provides interactive API documentation:
-
-```text
-http://127.0.0.1:8000/docs
-```
-
----
-
-# ⚙️ Getting Started
-
-## Requirements
-
-Make sure you have:
-
-```text
-Python 3.x
-Node.js
-npm
-Git
-```
-
----
-
-## 1. Clone the Repository
-
-```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd optivest
-```
-
----
-
-## 2. Start the Backend
-
-```bash
-cd backend
-```
-
-Create a virtual environment:
-
-```bash
-python -m venv venv
-```
-
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-### Linux / macOS
-
-```bash
-source venv/bin/activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Start FastAPI:
-
-```bash
-uvicorn main:app --reload --port 8000
-```
-
-Backend:
-
-```text
-http://127.0.0.1:8000
-```
-
-API documentation:
-
-```text
-http://127.0.0.1:8000/docs
-```
-
----
-
-## 3. Start the Frontend
-
-Open another terminal:
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Frontend:
-
-```text
-http://127.0.0.1:5173
-```
-
----
-
-# 🚀 Production Build
-
-```bash
-cd frontend
-npm run build
-```
-
-The optimized production application will be generated inside:
-
-```text
-frontend/dist
-```
-
-Preview it locally:
-
-```bash
-npm run preview
-```
-
----
-
-# ☁️ Deployment
-
-## Frontend
-
-The frontend can be deployed to platforms such as:
-
-* Vercel
-* Netlify
-* Cloudflare Pages
-
-Build:
-
-```bash
-npm run build
-```
-
-Deploy:
-
-```text
-frontend/dist
-```
-
-For separate frontend/backend deployments, configure:
-
-```text
-VITE_API_URL=<YOUR_DEPLOYED_BACKEND_URL>
-```
-
----
-
-## Backend
-
-The FastAPI backend can be hosted on platforms such as:
-
-* Render
-* Railway
-* Fly.io
-* AWS EC2
-
-Production command:
-
-```bash
-uvicorn main:app --host 0.0.0.0 --port $PORT
-```
-
-Configure CORS to allow requests from the deployed frontend.
-
----
-
-# 🖥️ Live Demo
-
-<p align="center">
-
-### Experience OptiVest
+<div align="center">
 
 <a href="https://optivest-psi.vercel.app/">
 
-<img src="https://img.shields.io/badge/OPEN_LIVE_DEMO-OPTIVEST-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/OPEN%20OPTIVEST%20↗-7C3AED?style=for-the-badge&labelColor=111111" />
 
 </a>
 
-</p>
+<br><br>
 
-**Live Application:**
-https://optivest-psi.vercel.app/
+**optivest-psi.vercel.app**
 
----
-
-# 🏆 Hackathon Achievement
-
-## Centre of Excellence Hackathon
-
-### 🥇 1st Prize
-
-OptiVest was developed and presented at the **Centre of Excellence Hackathon conducted by Kongu Engineering College**.
-
-The project brought together:
-
-```text
-Quantitative Finance
-        +
-Mathematical Optimization
-        +
-Full-Stack Engineering
-        +
-Data Visualization
-        +
-Product Design
-```
-
-The entire system was designed, implemented, tested, and presented collaboratively by the team.
+</div>
 
 ---
 
-# 👥 Team
+# 🏆 01 — HACKATHON
 
-## Team OptiVest
+<div align="center">
 
-| #      | Team Member        |
-| ------ | ------------------ |
-| **01** | **Niranjan G**     |
-| **02** | **Nirmal Kumar V** |
-| **03** | **Nithish**        |
-| **04** | **Pranesh Deepan** |
+<img src="https://img.shields.io/badge/1ST%20PRIZE-F5B942?style=for-the-badge&labelColor=111111" />
 
-### Equal Contribution
+<br><br>
 
-All four members contributed equally to the project.
+### **CENTRE OF EXCELLENCE HACKATHON**
 
-Our collective contributions covered:
-
-* Product ideation
-* System architecture
-* Frontend engineering
-* Backend engineering
-* Quantitative modeling
-* Portfolio optimization
-* Data processing
-* Visualization
-* UI/UX
-* Testing
-* Documentation
-* Hackathon presentation
-
----
-
-# 🔮 Future Roadmap
-
-OptiVest can be extended into a broader portfolio intelligence platform.
-
-### Portfolio Intelligence
-
-* Live portfolio tracking
-* Portfolio history
-* Automated rebalancing
-* Performance attribution
-* Portfolio backtesting
-
-### Advanced Risk Analytics
-
-* Value at Risk — VaR
-* Conditional VaR
-* Maximum Drawdown
-* Beta analysis
-* Sortino Ratio
-* Downside deviation
-
-### Advanced Optimization
-
-* Black-Litterman model
-* Risk parity
-* Sector constraints
-* Transaction-cost optimization
-* Factor-based optimization
-* Custom investor constraints
-
-### Platform Features
-
-* User authentication
-* Persistent portfolios
-* Cloud database
-* Portfolio sharing
-* Scheduled reports
-* Real-time market monitoring
-* Broker/API integration
-
----
-
-# ⚠️ Disclaimer
-
-OptiVest is a **hackathon demonstration and educational project**.
-
-The portfolio calculations are based on historical data, mathematical assumptions, and simulated scenarios where applicable.
-
-Historical performance does not guarantee future results.
-
-Nothing presented by OptiVest should be considered financial, investment, or trading advice.
-
-Users should conduct independent research and consult a qualified financial professional before making investment decisions.
-
----
-
-# ⭐ Support the Project
-
-If you find OptiVest interesting:
-
-**⭐ Star the repository**
-
-**🍴 Fork the project**
-
-**🧑‍💻 Explore the implementation**
-
-**🌐 Try the live demo**
-
----
-
-<p align="center">
-
-## OPTIVEST
-
-### Analyze. Optimize. Understand Risk.
-
-**Built with mathematics, engineering, and teamwork.**
+**Kongu Engineering College**
 
 <br>
 
-🏆 **1st Prize — Centre of Excellence Hackathon**
+OptiVest was developed and presented as a collaborative four-member project and was awarded **1st Prize** at the Centre of Excellence Hackathon.
 
-</p>
+</div>
+
+---
+
+# ◎ The Team
+
+<div align="center">
+
+## **FOUR MINDS. ONE PRODUCT.**
+
+<br>
+
+<table>
+<tr>
+
+<td align="center" width="25%">
+
+### **NIRANJAN G**
+
+<br>
+
+`TEAM MEMBER`
+
+</td>
+
+<td align="center" width="25%">
+
+### **NIRMAL KUMAR V**
+
+<br>
+
+`TEAM MEMBER`
+
+</td>
+
+<td align="center" width="25%">
+
+### **NITHISH**
+
+<br>
+
+`TEAM MEMBER`
+
+</td>
+
+<td align="center" width="25%">
+
+### **PRANESH DEEPAN**
+
+<br>
+
+`TEAM MEMBER`
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+### **Equal Contribution**
+
+All four members contributed equally across the project — from **ideation and architecture to engineering, optimization, interface design, testing and presentation.**
+
+</div>
+
+---
+
+<div align="center">
+
+<br><br>
+
+# OPTIVEST
+
+### **Risk isn't a number.**
+
+### **It's a relationship between assets.**
+
+<br>
+
+**Analyze · Optimize · Understand**
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3000&pause=1000&color=777777&center=true&vCenter=true&width=600&lines=Built+for+the+CoE+Hackathon.;Built+by+Niranjan+%C2%B7+Nirmal+%C2%B7+Nithish+%C2%B7+Pranesh." alt="Team" />
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+<sub>OptiVest · Portfolio Risk & Return Intelligence</sub>
+
+</div>
